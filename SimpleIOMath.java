@@ -52,7 +52,7 @@ public class SimpleIOMath {
 
     public void getExtra() {
         if(favNumber > 0)
-            System.out.println("The square root of your favorite number is " + extra );
+            System.out.println("your favorite number square rooted and rounded to the nearest whole number is " + extra);
         if(favNumber <= 0)
             System.out.println("your favorite number needs to be greater than 0 for the extra");
     }
